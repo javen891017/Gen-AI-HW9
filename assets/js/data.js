@@ -56,46 +56,6 @@ window.FOOD_DATA = [
     }
   },
   {
-    id: "xizi-beef-noodle",
-    name: "璽子牛肉麵",
-    city: "新竹縣",
-    district: "竹北市",
-    category: "麵食小吃",
-    summary: "用餐時間人潮爆滿的人氣牛肉麵，清燉牛肉麵湯頭濃郁、牛肉捲餅外酥內Q。",
-    description: "文章提及位於新竹學府路一帶一直以來生意極佳（本篇所列門市地址為竹北市勝利三街），每次用餐時間人潮總是爆滿。推薦「清燉牛肉麵」，牛肉入口即化搭配香氣濃郁的湯頭；「牛肉捲餅」外酥內Q的餅皮包覆滿滿牛肉，門口四周設有停車格相當方便。",
-    highlights: ["清燉牛肉麵", "牛肉捲餅"],
-    address: "302新竹縣竹北市勝利三街148號",
-    hours: "11:00–14:00, 17:00–21:00（週二公休）",
-    phone: "03 667 5539",
-    price: "",
-    image: "assets/images/placeholder.svg",
-    source: {
-      title: "Cosmopolitan TW｜網友激推「新竹美食」TOP10！璽子牛肉麵、廟口鴨香飯，中崎家日式咖哩、米玥麻糬堂全都好吃又好拍",
-      url: "https://www.cosmopolitan.com/tw/lifestyle/food-and-drink/g38298798/hsinchu-food-1123/",
-      addedDate: "2026-11-16"
-    }
-  },
-  {
-    id: "changer-benyue-project",
-    name: "腸兒奔月計畫",
-    city: "新竹縣",
-    district: "湖口鄉",
-    category: "在地小吃",
-    summary: "文青風格的大腸包小腸專賣，每日限量供應，花生粉與酸菜醬汁搭配酥脆米腸香腸。",
-    description: "在當地小有名氣的「大腸包小腸．腸兒奔月計畫」，堪稱全台最文青的大腸包香腸，生意好到常需提早預訂，每日限量供應賣完為止。花生粉和酸菜搭配的醬汁包覆在微酥脆口感的香腸米腸中，口感極佳。",
-    highlights: ["大腸包小腸"],
-    address: "30349新竹縣湖口鄉安宅十街79號",
-    hours: "14:30–18:00（假日公休）",
-    phone: "0963 531 173",
-    price: "",
-    image: "assets/images/placeholder.svg",
-    source: {
-      title: "Cosmopolitan TW｜網友激推「新竹美食」TOP10！璽子牛肉麵、廟口鴨香飯，中崎家日式咖哩、米玥麻糬堂全都好吃又好拍",
-      url: "https://www.cosmopolitan.com/tw/lifestyle/food-and-drink/g38298798/hsinchu-food-1123/",
-      addedDate: "2026-11-16"
-    }
-  },
-  {
     id: "nakazakiyake-curry",
     name: "中崎家-日式咖哩 新竹公道五店",
     city: "新竹市",
@@ -109,26 +69,6 @@ window.FOOD_DATA = [
     phone: "03 573 3677",
     price: "",
     image: "https://hips.hearstapps.com/hmg-prod/images/ig-2021-11-21-下午3-30-46-1637479891.png?crop=0.806xw:0.699xh;0.0986xw,0.0973xh&resize=980:*",
-    source: {
-      title: "Cosmopolitan TW｜網友激推「新竹美食」TOP10！璽子牛肉麵、廟口鴨香飯，中崎家日式咖哩、米玥麻糬堂全都好吃又好拍",
-      url: "https://www.cosmopolitan.com/tw/lifestyle/food-and-drink/g38298798/hsinchu-food-1123/",
-      addedDate: "2026-11-16"
-    }
-  },
-  {
-    id: "manman-haoshi",
-    name: "饅饅好食",
-    city: "新竹市",
-    district: "東區",
-    category: "咖啡甜點",
-    summary: "夢幻粉嫩裝潢與頂樓露台，主打多款精緻切片水果蛋糕與千層蛋糕，適合下午茶聚會。",
-    description: "「饅饅好食」是熱門網美打卡店之一，擁有夢幻粉嫩的裝潢與頂樓露台。除簡餐外，店內最主打蛋糕類，提供白葡萄雙餡、紅茶香緹草莓、鮮果疊疊千層蛋糕、法國香緹水果、伯爵白巧綜合水果等多種口味切片蛋糕，價格約在150-200元之間，推薦姊妹下午茶聚會。",
-    highlights: ["白葡萄雙餡蛋糕", "紅茶香緹草莓蛋糕", "鮮果疊疊千層蛋糕", "法國香緹水果蛋糕", "伯爵白巧綜合水果蛋糕"],
-    address: "300新竹市東區文化街22號2樓",
-    hours: "11:00–20:00（星期二公休）",
-    phone: "03 543 0258",
-    price: "切片蛋糕約 $150–$200",
-    image: "assets/images/placeholder.svg",
     source: {
       title: "Cosmopolitan TW｜網友激推「新竹美食」TOP10！璽子牛肉麵、廟口鴨香飯，中崎家日式咖哩、米玥麻糬堂全都好吃又好拍",
       url: "https://www.cosmopolitan.com/tw/lifestyle/food-and-drink/g38298798/hsinchu-food-1123/",
@@ -156,26 +96,6 @@ window.FOOD_DATA = [
     }
   },
   {
-    id: "wuyang-restaurant",
-    name: "無恙",
-    city: "新竹市",
-    district: "北區",
-    category: "健康餐飲",
-    summary: "Google 評價高達 4.8 顆星，復古典雅空間搭配爵士樂，主打低油低鹽清淡料理與手作甜點。",
-    description: "在Google評價高達4.8顆星的「無恙」主打以低油低鹽的清淡料理為主，適合健身族群。室內裝潢充滿歷史感與復古典雅桌椅擺設，搭配爵士樂氣氛十分舒適。推薦紅酒燉牛肉、烤雞腿、湯品，餐後甜點如肉桂捲、抹茶瑪德蓮也頗受好評。",
-    highlights: ["紅酒燉牛肉", "烤雞腿", "肉桂捲", "抹茶瑪德蓮"],
-    address: "300新竹市北區中華路三段190號",
-    hours: "11:00–20:00",
-    phone: "03 525 0095",
-    price: "",
-    image: "assets/images/placeholder.svg",
-    source: {
-      title: "Cosmopolitan TW｜網友激推「新竹美食」TOP10！璽子牛肉麵、廟口鴨香飯，中崎家日式咖哩、米玥麻糬堂全都好吃又好拍",
-      url: "https://www.cosmopolitan.com/tw/lifestyle/food-and-drink/g38298798/hsinchu-food-1123/",
-      addedDate: "2026-11-16"
-    }
-  },
-  {
     id: "miaokou-duck-rice",
     name: "廟口鴨香飯",
     city: "新竹市",
@@ -188,26 +108,6 @@ window.FOOD_DATA = [
     hours: "11:00–15:00, 15:30–21:00（週二、三公休）",
     phone: "03 523 1190",
     price: "約 $100–$200",
-    image: "assets/images/placeholder.svg",
-    source: {
-      title: "Cosmopolitan TW｜網友激推「新竹美食」TOP10！璽子牛肉麵、廟口鴨香飯，中崎家日式咖哩、米玥麻糬堂全都好吃又好拍",
-      url: "https://www.cosmopolitan.com/tw/lifestyle/food-and-drink/g38298798/hsinchu-food-1123/",
-      addedDate: "2026-11-16"
-    }
-  },
-  {
-    id: "miyue-mochi",
-    name: "米玥麻糬堂",
-    city: "新竹市",
-    district: "東區",
-    category: "咖啡甜點",
-    summary: "傳統中藥店風趣味包裝，每天提供 7 種限定新穎內餡麻糬，單顆 $18–$45。",
-    description: "米玥麻糬堂每天有7種限定口味，單顆麻糬價位在18至45元之間。與傳統麻糬內餡截然不同，提供生巧克力、奇異果、鐵觀音奶茶等新穎口味；店面明亮並設有一整排木櫃，包裝風格宛如傳統中藥店相當有趣。",
-    highlights: ["生巧克力麻糬", "奇異果麻糬", "鐵觀音奶茶麻糬"],
-    address: "300新竹市東區食品路59號",
-    hours: "12:00–19:00",
-    phone: "03 575 0929",
-    price: "單顆 $18–$45",
     image: "assets/images/placeholder.svg",
     source: {
       title: "Cosmopolitan TW｜網友激推「新竹美食」TOP10！璽子牛肉麵、廟口鴨香飯，中崎家日式咖哩、米玥麻糬堂全都好吃又好拍",
