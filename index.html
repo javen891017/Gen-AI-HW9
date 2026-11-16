@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>新竹美食推薦指南 | 縣市分類探索</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-badge">HSINCHU FOOD GUIDE</span>
+        <h1>新竹美食推薦指南</h1>
+        <p class="subtitle">依新竹市、新竹縣分類整理，點擊卡片即可查看詳細介紹與資料來源。</p>
+      </div>
+      <div class="stats-bar" aria-label="收錄統計">
+        <div class="stat-item">
+          <span class="stat-num" id="stat-total">0</span>
+          <span class="stat-label">總收錄</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" id="stat-city">0</span>
+          <span class="stat-label">新竹市</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" id="stat-county">0</span>
+          <span class="stat-label">新竹縣</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <section class="controls-panel" aria-label="篩選與搜尋">
+      <div class="city-tabs" role="tablist" aria-label="縣市分類">
+        <button class="tab-btn active" data-city="all" role="tab" aria-selected="true">全部</button>
+        <button class="tab-btn" data-city="新竹市" role="tab" aria-selected="false">新竹市</button>
+        <button class="tab-btn" data-city="新竹縣" role="tab" aria-selected="false">新竹縣</button>
+      </div>
+
+      <div class="secondary-filters">
+        <select id="district-filter" class="filter-select" aria-label="鄉鎮市區篩選">
+          <option value="all">所有鄉鎮市區</option>
+        </select>
+
+        <select id="category-filter" class="filter-select" aria-label="美食類別篩選">
+          <option value="all">所有類別</option>
+        </select>
+
+        <div class="search-box">
+          <input
+            type="search"
+            id="search-input"
+            placeholder="搜尋店名、菜色、關鍵字..."
+            aria-label="搜尋美食"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="cards-grid" class="cards-grid" aria-live="polite"></section>
+
+    <section id="empty-state" class="empty-state hidden" aria-live="polite">
+      <div class="empty-icon">🍽️</div>
+      <h2 id="empty-title">目前尚未收錄美食資料</h2>
+      <p id="empty-desc">請將外部網站的 HTML 檔案提供給 AI 助手，系統將自動依 <code>AGENTS.md</code> 規則整理並顯示於此頁面。</p>
+    </section>
+  </main>
+
+  <!-- 詳細資料彈窗 -->
+  <div id="detail-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <button id="modal-close" class="modal-close" aria-label="關閉視窗">&times;</button>
+      <div class="modal-hero">
+        <img id="modal-img" src="assets/images/placeholder.svg" alt="" />
+        <div class="modal-badges">
+          <span id="modal-city-badge" class="badge badge-city"></span>
+          <span id="modal-district-badge" class="badge badge-district"></span>
+          <span id="modal-category-badge" class="badge badge-category"></span>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <h2 id="modal-title"></h2>
+        <p id="modal-summary" class="modal-summary"></p>
+
+        <div class="modal-section">
+          <h3>詳細介紹</h3>
+          <p id="modal-description" class="modal-description"></p>
+        </div>
+
+        <div id="modal-highlights-wrap" class="modal-section hidden">
+          <h3>推薦亮點 / 必點菜色</h3>
+          <ul id="modal-highlights" class="highlights-list"></ul>
+        </div>
+
+        <div class="modal-section">
+          <h3>店家資訊</h3>
+          <dl class="info-grid">
+            <div class="info-row">
+              <dt>地址</dt>
+              <dd id="modal-address">—</dd>
+            </div>
+            <div class="info-row">
+              <dt>營業時間</dt>
+              <dd id="modal-hours">—</dd>
+            </div>
+            <div class="info-row">
+              <dt>電話</dt>
+              <dd id="modal-phone">—</dd>
+            </div>
+            <div class="info-row">
+              <dt>價位參考</dt>
+              <dd id="modal-price">—</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="modal-section source-box">
+          <h3>資料來源</h3>
+          <p id="modal-source-text"></p>
+          <a id="modal-source-link" href="#" target="_blank" rel="noopener noreferrer" class="source-link hidden">
+            前往原始網頁 ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>新竹美食推薦指南 &middot; 資料依外部網站內容整理收錄</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
